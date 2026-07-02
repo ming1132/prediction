@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 数据文件（通常不上传大文件到GitHub）
+data/*.csv
+data/*.xlsx
+
+# 模型文件（可能很大）
+model/*.txt
+model/*.pkl
+
+# 输出文件
+output/*.csv
+
+# PyCharm
+.idea/
+*.iml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 虚拟环境
+venv/
+.venv/
+env/
